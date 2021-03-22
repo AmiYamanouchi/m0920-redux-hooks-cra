@@ -8,7 +8,7 @@ const ToDoList = (props) => {
   // const { toDoList, removeToDo, markToDo } = props
 
   const toDoList = useSelector((state) => state.toDoList ) //same as mapStateToProps
-  const dispatch = useDispatch()
+  const dispatch = useDispatch() //same as mapDispatchToProps
 
   const [filterVal, setFilterVal] = useState('SHOW_ALL')
 
