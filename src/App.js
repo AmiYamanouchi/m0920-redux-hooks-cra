@@ -17,6 +17,6 @@ function App() {
 const mapStateToProps = (state) => {
   return {toDoList: state.toDoList,}
 }
-
+ 
 // export default connect(mapStateToProps)(App)
 export default App
